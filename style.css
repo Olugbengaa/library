@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin-bottom: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #f5c946;
+  --secondary-color: #c72611;
+}
+
+ html {
+margin: 0.5rem 1rem;
+background: linear-gradient(to  right, var(--primary-color), var(--secondary-color)    );
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 960px;
+}
+
+#navbar {
+  text-align: center;
+}
+#navbar h1 {
+  font-size: 45px;
+  letter-spacing: 15px;
+  margin-bottom: -30px;
+}
+#navbar p {
+  font-size: 20px;
+  padding: 15px ;
+  font-style: italic;
+}
+
+#library {
+  margin: 35px ;
+}
+
+#library .form-1 {
+  text-align: center;
+}
+#library .form-1 input {
+  width: 400px;
+  height: 30px;
+  margin-right: 50px;
+  padding: 13px;
+}
+#library .form-1 button {
+  height: 30px;
+  width: 80px;
+  margin-top: 20px;
+}
+#library .form-2 ol li {
+  font-size: 18px;
+  line-height: 40px;
+  
+}
+#library .form-2 {
+  width: 500px;
+  margin: 40px;
+}
+#library .form-2 .link{
+  text-decoration: none;
+  background: #000;
+  color: var(--primary-color);
+  padding: 2px 7px;
+  border-radius: 5px;
+ margin: 0 90px;
+}
+
+#filter {
+  margin: 35px;
+  text-align: center;
+  
+}
+#filter input {
+  width: 250px;
+  height: 30px;
+  margin-right: 30px;
+  padding: 13px;
+}
+#filter button {
+  height: 25px;
+  width: 90px;
+  background: black;
+  color: #fff;
+  border: 1px solid black;
+}
+
+
+@media( max-width: 500px){
+  #navbar h1 {
+    font-size: 35px;
+    letter-spacing: 7px;
+    margin-bottom: -30px;
+  }
+  #navbar p {
+    font-size: 20px;
+    padding: 15px ;
+    font-style: italic;
+  }
+  #library .form-1 input {
+    width: 270px;
+    height: 30px;
+    margin-right: 30px;
+    padding: 13px;
+  
+  }
+  #library .form-1 button {
+    height: 30px;
+    width: 80px;
+    margin-top: 20px;
+  }
+  #library .form-2 ol li {
+    font-size: 18px;
+    line-height: 30px; 
+  }
+  
+
+}
